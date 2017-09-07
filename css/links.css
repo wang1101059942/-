@@ -1,0 +1,14 @@
+.links {
+  width: 500px;
+  margin: 10px auto;
+}
+.links > a {
+  margin: 0 0 5px 5px;
+  padding: 10px 8px;
+  float: left;
+  background: #f4f4f4;
+  border: 1px solid #bfbfbf;
+}
+.links > a > img {
+  margin-right: 5px;
+}

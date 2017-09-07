@@ -1,0 +1,54 @@
+.cu-list {
+  padding: 10px 10px;
+  background-color: #fff;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 14px;
+  min-width: 960px;
+}
+.cu-list > ul > li {
+  position: relative;
+}
+.cu-list > ul > li > a {
+  display: block;
+}
+.cu-list > ul > li > a > .pic {
+  float: left;
+  width: 110px;
+}
+.cu-list > ul > li > a > .pic > em {
+  color: #fff;
+}
+.cu-list > ul > li > a > .pic > em:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding-right: 4px;
+  height: 0px;
+  border: 8px solid #666666;
+  border-right-color: transparent;
+  line-height: 0px;
+  z-index: 1;
+  color: #ffffff;
+  font-size: 12px;
+  opacity: 0.8;
+}
+.cu-list > ul > li > a > .pic > em > .top:before {
+  content: "置顶";
+  border-color: #f54545;
+  border-right-color: transparent;
+}
+.cu-list > ul > li > a > .pic > em > .over:before {
+  content: "已结束";
+}
+.cu-list > ul > li > a > .pic > em > .up:before {
+  content: "已售罄";
+}
+.cu-list > ul > li > a > .pic > img {
+  width: 100px;
+  height: 100px;
+}
+.cu-list > .info {
+  padding-left: 90px;
+}
